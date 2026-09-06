@@ -71,4 +71,5 @@ Demonstration content is not automatically installed or imported by the theme.
 == Changelog ==
 
 = 0.1.0 =
-* Initial development release.
+* Initial release with native block templates, patterns, and Japanese Refined styles.
+* Responsive classic content, distinct page landmarks, and classic post pagination.

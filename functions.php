@@ -13,3 +13,14 @@ function ozeki_corporate_enqueue_styles(): void {
 	wp_enqueue_style('ozeki-corporate-style', get_stylesheet_uri(), [], (string) wp_get_theme()->get('Version'));
 }
 add_action('wp_enqueue_scripts', 'ozeki_corporate_enqueue_styles');
+
+/** Supply page links for classic nextpage markers not handled by core's block check. */
+function ozeki_corporate_classic_page_links(string $content, array $parsed_block, WP_Block $block): string {
+	$post_id = (int) ($block->context['postId'] ?? 0);
+	if (! is_singular() || $post_id !== get_queried_object_id() || $post_id !== get_the_ID()
+		|| post_password_required($post_id) || has_block('core/nextpage', $post_id)) {
+		return $content;
+	}
+	return $content . wp_link_pages(['echo' => false]);
+}
+add_filter('render_block_core/post-content', 'ozeki_corporate_classic_page_links', 10, 3);
