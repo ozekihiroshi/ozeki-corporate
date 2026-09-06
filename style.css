@@ -22,6 +22,10 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 	outline: 3px solid var(--wp--preset--color--accent); outline-offset: 3px;
 }
 .wp-site-blocks { min-height: 100vh; }
+/* Classic content may have inline pixel widths or unwrapped preformatted text. */
+:where(.wp-block-post-content, .wp-block-comment-content) .wp-caption { max-width: 100%; }
+:where(.wp-block-post-content, .wp-block-comment-content) img { max-width: 100%; height: auto; }
+:where(.wp-block-post-content, .wp-block-comment-content) pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .wp-block-post-title a { text-decoration: none; }
 .wp-block-post-title a:hover, .wp-block-post-title a:focus-visible { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
