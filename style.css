@@ -1,0 +1,27 @@
+/*
+Theme Name: Ozeki Corporate
+Theme URI: https://github.com/ozekihiroshi/ozeki-corporate
+Author: Hiroshi Ozeki
+Author URI: https://profiles.wordpress.org/ozekihiroshi/
+Description: A lightweight corporate block theme designed for international use with first-class Japanese typography.
+Version: 0.1.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ozeki-corporate
+Tags: block-patterns, full-site-editing, custom-colors, custom-logo, editor-style, featured-images, translation-ready, wide-blocks
+*/
+
+html { scroll-behavior: smooth; }
+body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegibility; }
+:where(h1, h2, h3, h4, h5, h6, .wp-block-navigation-item__label) { word-break: auto-phrase; }
+:where(a) { text-underline-offset: 0.16em; text-decoration-thickness: 0.08em; }
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+	outline: 3px solid var(--wp--preset--color--accent); outline-offset: 3px;
+}
+.wp-site-blocks { min-height: 100vh; }
+.wp-block-post-title a { text-decoration: none; }
+.wp-block-post-title a:hover, .wp-block-post-title a:focus-visible { text-decoration: underline; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
