@@ -48,6 +48,26 @@ Open Appearance > Editor > Styles, browse the available styles, and select Japan
 
 Use WordPress core or suitable plugins. These features are intentionally outside the theme’s presentation responsibility.
 
+== Copyright and Resources ==
+
+Ozeki Corporate, Copyright 2026 Hiroshi Ozeki.
+Ozeki Corporate is distributed under the GNU General Public License v2 or later.
+See LICENSE for the complete license text.
+
+Theme code and design: Hiroshi Ozeki, GPL-2.0-or-later.
+Source: https://github.com/ozekihiroshi/ozeki-corporate
+
+screenshot.png: theme rendered with fictional demonstration content,
+Copyright 2026 Hiroshi Ozeki, GPL-2.0-or-later. The illustrative photographs
+shown in the screenshot were generated with OpenAI image generation and do not
+depict actual staff, customers, or projects. Original assets and generation
+prompts are recorded at:
+https://github.com/ozekihiroshi/corporate-theme-rescue/tree/main/scripts/assets
+
+No font files, third-party JavaScript libraries, stock photographs, or remote
+runtime assets are bundled. Fonts use the visitor's operating-system font stack.
+Demonstration content is not automatically installed or imported by the theme.
+
 == Changelog ==
 
 = 0.1.0 =

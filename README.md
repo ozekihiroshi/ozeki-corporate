@@ -8,6 +8,13 @@ The default Global Style is an international corporate baseline. `styles/japanes
 
 The separate [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporate-theme-rescue) repository provides isolated Docker environments for development and ZIP installation tests.
 
+## Development ZIP
+
+Run `bash build-release.sh` to create `build/ozeki-corporate-0.1.0.zip`.
+Only runtime theme files, the readme, license, and screenshot are included.
+Development documentation, scripts, Git metadata and the separate demo fixtures
+are excluded. This is a development artifact, not a published release.
+
 ## License
 
 GPL-2.0-or-later. See `LICENSE`.
