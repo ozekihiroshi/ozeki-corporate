@@ -17,6 +17,8 @@ The theme uses native WordPress blocks, templates, patterns, and Global Styles. 
 
 English is the reference language. Japanese is a first-class validation language, with deliberate system-font fallbacks, heading proportions, line heights, wrapping, and spacing for Japanese and mixed-language content.
 
+The default style follows familiar international corporate typography. The optional Japanese Refined style variation uses Japanese-first system font stacks, restrained heading sizes, generous line height, Mincho body text, and Gothic headings and navigation. Select it from Appearance > Editor > Styles without editing theme files.
+
 == Installation ==
 
 1. Upload the theme ZIP from Appearance > Themes > Add New > Upload Theme.
@@ -37,6 +39,10 @@ No. It uses local system font stacks and WordPress core assets.
 = Is this theme limited to Japanese websites? =
 
 No. It is international by default. Japanese typography and responsive behavior are tested as first-class requirements.
+
+= How do I enable the Japanese typography? =
+
+Open Appearance > Editor > Styles, browse the available styles, and select Japanese Refined. The choice is stored by WordPress and is not implemented as a modification to theme files.
 
 = Where should forms, SEO, analytics, and custom content types be implemented? =
 
