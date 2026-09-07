@@ -25,8 +25,66 @@ The default style follows familiar international corporate typography. The optio
 2. Activate Ozeki Corporate.
 3. Open Appearance > Editor to configure the site logo, navigation, colors, typography, templates, and patterns.
 4. Replace all example pattern content and links before publishing.
+5. Open Appearance > Ozeki Corporate Guide for optional setup guidance.
+
+The guide links to standard WordPress screens and makes no automatic changes.
+When adding a page, choose an Ozeki Corporate About, Services, Company or Contact
+starter, or find it in the Patterns inserter. These are editable native blocks,
+not a demo import. GETTING-STARTED.md includes navigation and launch checklists
+in English and Japanese. Adding a contact starter does not install a form.
 
 == Frequently Asked Questions ==
+
+= How do I make the starter page my own? =
+
+Open Appearance > Editor and edit the Front Page template. Use List View to
+select a heading, paragraph or image. Select the image and use Replace to upload
+or choose your own photograph, then update its alternative text. Save your
+changes and check the public page on desktop and mobile.
+
+Set your site title and logo, replace the example business copy, and create your
+own pages before adding them to Navigation. Contact forms require a suitable
+plugin; the theme does not send inquiries. Example content is not a claim about
+your business. Remove the example disclosure after replacing that content.
+
+The starter image is bundled locally. No demo pages or media-library entries
+are automatically created. Japanese Refined changes typography, not language;
+you can replace the English example text with your own Japanese text.
+
+= How do I connect the contact section? =
+
+The starter's "Start a conversation" section contains example text, not a form
+or a working contact link. First create and publish your Contact page with the
+contact details you intend to make public, or a form supplied by a suitable
+plugin. Open Appearance > Editor > Templates > Front Page. Select the contact
+section in List View, add a Buttons block and name its button "Contact us".
+Select the button's Link control, search for your published Contact page and
+apply the link. If only content fields are available, choose Edit pattern first.
+Save, open the public homepage and check the button while logged out.
+
+Alternatively, link a button to mailto: followed by your real business email.
+This opens the visitor's configured mail app; it does not send a message itself.
+Do not publish example addresses or leave a button without a destination. If
+using a form plugin, separately test submission and actual email delivery.
+
+= What if my replacement image will not upload? =
+
+Check the maximum upload size shown in Media > Add New Media File. The limit
+depends on your hosting/PHP configuration (and possibly multisite or other
+server limits), not this theme. The clean test environment allowed 2 MB; this
+is an example, not a requirement or a theme-imposed limit. Reduce the image's
+file size or ask your hosting administrator for help. Renaming a file extension
+does not reduce its size. Do not assume the theme can raise server limits.
+
+Select the Image block, choose Replace > Upload or Open Media Library, and wait
+for upload and image processing to finish. Then set Alternative text, Save and
+reload the page. A decorative image may have empty alternative text. The starter
+hero displays images in a 5:4 frame with cropping; keep the important subject
+near the centre and check desktop and mobile. Keep your original image separately.
+
+Step-by-step English and Japanese instructions: GETTING-STARTED.md in the theme.
+Official reference: https://wordpress.org/documentation/article/image-block/
+Official reference: https://wordpress.org/documentation/article/link-editing/
 
 = Does the theme require a plugin? =
 
@@ -63,6 +121,10 @@ shown in the screenshot were generated with OpenAI image generation and do not
 depict actual staff, customers, or projects. Original assets and generation
 prompts are recorded at:
 https://github.com/ozekihiroshi/corporate-theme-rescue/tree/main/scripts/assets
+
+assets/images/team.png: locally bundled AI-generated starter illustration,
+distributed under GPL-2.0-or-later. See assets/images/README.txt for provenance
+and replacement instructions. It does not depict actual staff or customers.
 
 No font files, third-party JavaScript libraries, stock photographs, or remote
 runtime assets are bundled. Fonts use the visitor's operating-system font stack.

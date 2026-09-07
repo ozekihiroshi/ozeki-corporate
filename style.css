@@ -83,9 +83,11 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 .oc-english p { font-family: inherit; line-height: 1.75; }
 .wp-block-post-content .wp-block-details { border-block-end: 1px solid var(--wp--preset--color--border); padding: 1rem 0; }
 .wp-block-post-content .wp-block-details summary { cursor: pointer; font-family: var(--wp--preset--font-family--sans); font-weight: 600; }
-.wp-block-post-content .wp-block-table { overflow-x: auto; }
-.wp-block-post-content .wp-block-table th { text-align: start; min-width: 6em; background: var(--wp--preset--color--surface); }
-.wp-block-post-content .wp-block-table :is(th, td) { padding: 1rem; border-color: var(--wp--preset--color--border); }
+/* Tables also appear directly in templates and patterns, outside post-content.
+   Keep native table semantics and allow long values to wrap at narrow widths. */
+.wp-block-table { overflow-x: auto; }
+.wp-block-table th { text-align: start; min-width: 6em; background: var(--wp--preset--color--surface); }
+.wp-block-table :is(th, td) { padding: clamp(.625rem, 2vw, 1rem); border-color: var(--wp--preset--color--border); vertical-align: top; overflow-wrap: anywhere; }
 @media (max-width: 900px) {
     .oc-header .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
     .oc-header .wp-block-navigation__responsive-container-open { display: flex; }

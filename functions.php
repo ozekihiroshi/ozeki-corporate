@@ -14,6 +14,17 @@ function ozeki_corporate_enqueue_styles(): void {
 }
 add_action('wp_enqueue_scripts', 'ozeki_corporate_enqueue_styles');
 
+function ozeki_corporate_register_pattern_categories(): void {
+	register_block_pattern_category('ozeki-corporate-pages', [
+		'label' => __('Ozeki Corporate pages', 'ozeki-corporate'),
+	]);
+}
+add_action('init', 'ozeki_corporate_register_pattern_categories');
+
+if (is_admin()) {
+	require_once get_parent_theme_file_path('inc/getting-started.php');
+}
+
 /** Supply page links for classic nextpage markers not handled by core's block check. */
 function ozeki_corporate_classic_page_links(string $content, array $parsed_block, WP_Block $block): string {
 	$post_id = (int) ($block->context['postId'] ?? 0);
