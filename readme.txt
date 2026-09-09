@@ -3,7 +3,7 @@ Contributors: ozekihiroshi
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Version: 0.1.0
+Version: 0.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,15 @@ runtime assets are bundled. Fonts use the visitor's operating-system font stack.
 Demonstration content is not automatically installed or imported by the theme.
 
 == Changelog ==
+
+= 0.2.0 =
+* Add English-first business starters with a local example photograph.
+* Add optional English/Japanese setup guidance under Appearance.
+* Add About, Services, Company and Contact page starter patterns.
+* Explain navigation, contact setup, image replacement and pre-publication checks.
+* Improve company-table wrapping and update the English theme screenshot.
+* Reduce the bundled photograph size while preserving its existing image URL.
+* Preserve existing pages, saved templates, styles and navigation on update.
 
 = 0.1.0 =
 * Initial release with native block templates, patterns, and Japanese Refined styles.

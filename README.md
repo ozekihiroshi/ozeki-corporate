@@ -15,7 +15,7 @@ The separate [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporat
 
 ## Development ZIP
 
-Run `bash build-release.sh` to create `build/ozeki-corporate-0.1.0.zip`.
+Run `bash build-release.sh` to create `build/ozeki-corporate-0.2.0.zip`.
 Runtime theme files, bundled starter imagery and its provenance, the readme,
 license, and screenshot are included.
 Development documentation, scripts, Git metadata and the separate demo fixtures

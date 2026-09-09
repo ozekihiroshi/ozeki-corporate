@@ -48,6 +48,24 @@ just to upload an image. Wait for completion before setting its alternative text
 The starters use normal blocks and do not install a demonstration website. They
 can be edited or removed like other content. No developer script is required.
 
+### Pages or posts?
+
+Use **Pages > Add New** for About, Services, Company and Contact. Use **Posts >
+Add New** for dated news and articles. Published posts appear in news listings;
+the shipped homepage shows the three latest posts, newest first. Pages do not
+enter that feed.
+
+For a separate news index, create an empty **News** page, select it as the **Posts
+page** in **Settings > Reading** when using a static homepage, then link it from
+Navigation. WordPress displays the post listing there, not that page's editor
+body. Edit the homepage itself in the Front Page template.
+
+Keep reference notes and unfinished work as drafts or private content. Check
+visibility while logged out. Published pages may also enter the initial Page List
+menu automatically. Removing a menu link or news section does not unpublish the
+content. Change its visibility or move that specific item to Trash. Prefer Trash
+to permanent deletion when you might need to recover it.
+
 ## 3. Set up the contact destination
 
 The initial **Start a conversation** section is text only. It neither sends
@@ -115,6 +133,22 @@ on a phone. Japanese Refined changes typography, not the language of the content
    編集・変換の操作で個別リンクにすると、必要なページと順番を指定できます。
 5. リンクの上下移動などで順番を整えて保存します。不要なリンクを外しても、
    固定ページ自体は削除されません。スマホとログアウト状態でも確認しましょう。
+
+### 固定ページと投稿を使い分ける
+
+会社紹介・サービス・会社情報・問い合わせは「固定ページ → 新規追加」、ニュースや
+技術記事は「投稿 → 新規追加」で作ります。公開した投稿は記事一覧に入り、配布版の
+トップページには新しい順に3件表示されます。固定ページはニュース一覧には入りません。
+
+独立した記事一覧が必要なら、本文が空の「お知らせ」固定ページを作り、
+「設定 → 表示設定」で固定フロントページを使う場合の「投稿ページ」に指定して、
+メニューへリンクを追加します。このページには本文ではなく投稿一覧が表示されます。
+トップページの編集場所は引き続きフロントページのテンプレートです。
+
+参照用メモや未完成の記事は下書き・非公開にして、ログアウト状態で確認します。
+公開した固定ページも初期メニューのページリストに自動で入る場合があります。
+メニューのリンクやニュース欄を外すだけでは非公開になりません。公開状態を変更するか、
+その記事・ページだけをゴミ箱へ移してください。取り消せるよう、完全削除は慎重に行います。
 
 ### 問い合わせ先を設定する
 

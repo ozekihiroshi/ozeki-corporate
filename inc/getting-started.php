@@ -41,6 +41,8 @@ function ozeki_corporate_render_guide(): void {
         </div>
         <div class="card">
             <h2><?php esc_html_e('4. Choose typography and review news', 'ozeki-corporate'); ?></h2>
+            <p><?php esc_html_e('Use Pages for About, Services, Company and Contact. Use Posts for news and articles: published posts enter news listings, and the starter homepage shows the three latest posts. Keep reference notes as drafts or private content. Removing a menu link does not make content private; change its visibility or move the specific item to Trash.', 'ozeki-corporate'); ?></p>
+            <p><a href="<?php echo esc_url(admin_url('post-new.php')); ?>"><?php esc_html_e('Write a news post', 'ozeki-corporate'); ?></a> | <a href="<?php echo esc_url(admin_url('edit.php')); ?>"><?php esc_html_e('Review posts', 'ozeki-corporate'); ?></a></p>
             <p><?php esc_html_e('In the Site Editor, open Styles to choose the default look or Japanese Refined. This changes presentation, not language. The homepage news section displays your posts. Review the initial sample post and page yourself; keep, replace or remove them as appropriate. If you do not need news, remove that section from the Front Page template, not your posts.', 'ozeki-corporate'); ?></p>
         </div>
         <div class="card">
@@ -60,6 +62,7 @@ function ozeki_corporate_render_guide(): void {
                 <li><?php esc_html_e('メニュー：ヘッダーのナビゲーションをリスト表示で選びます。最初の Pages 内のページリストは公開ページを自動表示する場合があります。編集・変換で個別リンクにし、必要なページと順番を選んで保存します。リンクを外しても固定ページ自体は削除されません。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('問い合わせ：実際の連絡先や設定済みフォームを載せた固定ページを公開し、トップページのボタンからリンクします。テーマ自体に送信機能はありません。フォーム送信とメール到着は別に試験してください。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('公開前：会社名・写真・見本文・仮の連絡先・サンプル投稿を確認します。PCとスマホ、ログアウト状態、キーボード操作、保存後の再表示を確認してバックアップを取ります。Japanese Refined は書体や余白の設定で、自動翻訳ではありません。', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('投稿と固定ページ：会社紹介・サービス・会社情報・問い合わせは固定ページ、ニュースや記事は投稿で作ります。公開した投稿は記事一覧と配布版トップページの最新3件に表示されます。参照用メモは下書きか非公開にします。メニューのリンクを外すだけでは非公開になりません。不要な記事は対象だけをゴミ箱へ移してください。', 'ozeki-corporate'); ?></li>
             </ol>
         </div>
         <p><a href="<?php echo esc_url(get_parent_theme_file_uri('GETTING-STARTED.md')); ?>"><?php esc_html_e('Read the complete English / Japanese guide (Markdown)', 'ozeki-corporate'); ?></a></p>
