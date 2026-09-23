@@ -3,7 +3,7 @@ Contributors: ozekihiroshi
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Version: 0.2.0
+Version: 0.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,12 @@ runtime assets are bundled. Fonts use the visitor's operating-system font stack.
 Demonstration content is not automatically installed or imported by the theme.
 
 == Changelog ==
+
+= 0.2.1 =
+* Establish a shared 4–96px spacing scale for templates, patterns and editor controls.
+* Disable arbitrary spacing, font-size and line-height values to protect visual hierarchy.
+* Refine English and Japanese line heights for long-form business content.
+* Keep Japanese Refined on the same layout rhythm as the international default style.
 
 = 0.2.0 =
 * Add English-first business starters with a local example photograph.
