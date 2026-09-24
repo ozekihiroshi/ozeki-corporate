@@ -19,6 +19,12 @@ English is the reference language. Japanese is a first-class validation language
 
 The default style follows familiar international corporate typography. The optional Japanese Refined style variation uses Japanese-first system font stacks, restrained heading sizes, generous line height, Mincho body text, and Gothic headings and navigation. Select it from Appearance > Editor > Styles without editing theme files.
 
+The editor palette uses Ink and Navy for structure, neutral grays for surfaces,
+and Deep Teal for links and small accents. Image blocks offer an optional Soft
+Shadow style. Group blocks offer an optional Key Point style with a pale neutral
+surface and a narrow teal rule. Both are opt-in and use normal WordPress block
+style controls.
+
 == Installation ==
 
 1. Upload the theme ZIP from Appearance > Themes > Add New > Upload Theme.
@@ -102,11 +108,18 @@ No. It is international by default. Japanese typography and responsive behavior 
 
 Open Appearance > Editor > Styles, browse the available styles, and select Japanese Refined. The choice is stored by WordPress and is not implemented as a modification to theme files.
 
+= How do I use the optional block styles? =
+
+Select an Image block and choose Styles > Soft Shadow to separate an important
+photograph quietly from the page. Select a Group block and choose Styles > Key
+Point for a short principle, service promise or important explanation. Use
+these styles sparingly; default blocks remain unstyled.
+
 = Where should forms, SEO, analytics, and custom content types be implemented? =
 
 Use WordPress core or suitable plugins. These features are intentionally outside the theme’s presentation responsibility.
 
-== Copyright and Resources ==
+== Resources ==
 
 Ozeki Corporate, Copyright 2026 Hiroshi Ozeki.
 Ozeki Corporate is distributed under the GNU General Public License v2 or later.
@@ -155,3 +168,8 @@ Demonstration content is not automatically installed or imported by the theme.
 = 0.1.0 =
 * Initial release with native block templates, patterns, and Japanese Refined styles.
 * Responsive classic content, distinct page landmarks, and classic post pagination.
+
+== Upgrade Notice ==
+
+= 0.2.2 =
+Adds a restrained Navy and Deep Teal color system, controlled spacing and typography, and two optional native block styles without replacing saved content.

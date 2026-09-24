@@ -1,38 +1,91 @@
 # Ozeki Corporate
 
-A considered starting point for your business website, built with native WordPress blocks.
+A calm, practical WordPress block theme for business websites, with an
+English-first starter experience and first-class Japanese typography.
 
-The English starter composition includes a locally bundled example image and
-editable business copy. Replace them with your own photographs and story.
-Japanese content is supported through deliberate typography, wrapping and the
-optional Japanese Refined style; that style does not translate page content.
+Ozeki Corporate is intended for companies, independent professionals and small
+teams that need a credible site without a proprietary page builder. It uses
+native WordPress templates, patterns, blocks and Global Styles, so the resulting
+content remains editable with standard WordPress tools.
 
-The theme uses native templates, patterns, and Global Styles; system fonts only; minimal PHP; no proprietary blocks, page builder, CDN, or business functionality.
+## What is included
 
-The default Global Style is an international corporate baseline. `styles/japanese-refined.json` is a selectable variation derived from practical Japanese-site requirements: Japanese-first system font fallbacks, Mincho body copy, Gothic interface and headings, restrained heading proportions, and more generous line height. No theme-file customization is required to switch styles.
+- English-first corporate homepage, About, Services, Company and Contact starters.
+- A locally bundled, replaceable example image with documented provenance.
+- An optional **Japanese Refined** Global Style using Mincho body copy, Gothic
+  headings and Japanese-tested line height and wrapping.
+- A disciplined 4–96px spacing scale and a compact business color palette.
+- **Soft Shadow** for Image blocks and **Key Point** for Group blocks as opt-in
+  block styles; ordinary blocks remain deliberately plain.
+- Responsive navigation, archives, search, 404, posts, pages, comments,
+  password-protected content and classic page breaks.
+- English/Japanese setup guidance under **Appearance > Ozeki Corporate Guide**.
 
-The separate [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporate-theme-rescue) repository provides isolated Docker environments for development and ZIP installation tests.
+The theme does not import demo pages, translate content, send contact messages,
+collect analytics, load remote fonts, use a CDN or require a companion plugin.
+
+## Requirements
+
+- WordPress 6.6 or later
+- PHP 8.1 or later
+
+## Install and start
+
+1. Upload the versioned ZIP from **Appearance > Themes > Add New > Upload Theme**.
+2. Activate Ozeki Corporate.
+3. Open **Appearance > Ozeki Corporate Guide**.
+4. Replace the example company text and photograph, create the required pages,
+   connect navigation and configure a real contact destination.
+5. Review the site while logged out on desktop and mobile before publishing.
+
+See [GETTING-STARTED.md](GETTING-STARTED.md) for detailed English and Japanese
+instructions, including image limits, navigation, contact setup, content types
+and the optional block styles.
+
+## Design approach
+
+The default Global Style is an international corporate baseline. The palette
+uses Ink and Navy for structure, neutral grays for surfaces and borders, and the
+original Deep Teal only for links and small accents. Japanese Refined changes
+presentation rather than language and can be selected from the Site Editor's
+Styles panel without editing theme files.
+
+Spacing, font sizes and line heights use controlled choices instead of arbitrary
+one-off values. This helps non-designers keep page rhythm and hierarchy
+consistent while still allowing normal block editing.
 
 ## Development ZIP
 
-Run `bash build-release.sh` to create `build/ozeki-corporate-0.2.2.zip`.
-Runtime theme files, bundled starter imagery and its provenance, the readme,
-license, and screenshot are included.
-Development documentation, scripts, Git metadata and the separate demo fixtures
-are excluded. A locally built ZIP is a development artifact, not automatically
-a published release. Do not replace the published v0.1.0 asset with development
-changes; finalize a new version after acceptance checks.
+Run:
 
-The restrained palette uses ink and navy for large areas, neutral grays for
-structure, and the original deep teal only for small accents. Select an Image
-block's **Soft Shadow** style or a Group block's **Key Point** style when the
-content needs emphasis; the default blocks remain deliberately plain.
+```sh
+bash build-release.sh
+```
 
-## Getting started
+This creates `build/ozeki-corporate-0.2.2.zip`. The ZIP includes runtime theme
+files, the starter image and provenance, guides, license and screenshot. It
+excludes Git metadata, development documentation, build scripts and separate
+test fixtures.
 
-See [GETTING-STARTED.md](GETTING-STARTED.md) for English and Japanese instructions
-for replacing images, checking upload limits and connecting the contact section.
+The source tree currently represents the 0.2.2 release candidate. The latest
+published GitHub release remains v0.2.0 until the candidate is deliberately
+tagged and released. A local build or merge to `main` is not itself a public
+release and does not update WordPress.org.
+
+The separate
+[`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporate-theme-rescue)
+repository contains isolated development, installed-ZIP, compatibility,
+accessibility and visual-validation environments. Candidate hashes and curated
+test reports are recorded there.
+
+## Project boundaries
+
+Forms, email delivery, SEO, analytics, backups and custom post types belong in
+WordPress core, hosting configuration or suitable plugins. Patterns are editable
+starting content, not synchronized demo pages. Theme updates do not replace
+saved pages, navigation, templates or Global Styles.
 
 ## License
 
-GPL-2.0-or-later. See `LICENSE`.
+GPL-2.0-or-later. See [LICENSE](LICENSE). Bundled asset provenance and replacement
+guidance are documented in [assets/images/README.txt](assets/images/README.txt).
