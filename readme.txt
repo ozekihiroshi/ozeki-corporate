@@ -3,7 +3,7 @@ Contributors: ozekihiroshi
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Version: 0.2.1
+Version: 0.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,11 @@ runtime assets are bundled. Fonts use the visitor's operating-system font stack.
 Demonstration content is not automatically installed or imported by the theme.
 
 == Changelog ==
+
+= 0.2.2 =
+* Add a restrained navy role while retaining deep teal for links and small accents.
+* Add opt-in Soft Shadow for Image blocks and Key Point for Group blocks.
+* Keep the new styles consistent in the editor, public pages and forced-colors mode.
 
 = 0.2.1 =
 * Establish a shared 4–96px spacing scale for templates, patterns and editor controls.

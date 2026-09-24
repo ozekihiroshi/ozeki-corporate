@@ -4,7 +4,7 @@ Theme URI: https://github.com/ozekihiroshi/ozeki-corporate
 Author: Hiroshi Ozeki
 Author URI: https://profiles.wordpress.org/ozekihiroshi/
 Description: A lightweight corporate block theme designed for international use with first-class Japanese typography.
-Version: 0.2.1
+Version: 0.2.2
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
@@ -30,6 +30,21 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 .wp-block-post-title a:hover, .wp-block-post-title a:focus-visible { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
+/* Opt-in block styles keep the default canvas quiet. */
+.wp-block-image.is-style-soft-shadow img {
+	box-shadow: 0 0.75rem 1.875rem rgb(23 33 43 / 12%);
+}
+.wp-block-group.is-style-key-point {
+	background: var(--wp--preset--color--surface);
+	border-inline-start: 4px solid var(--wp--preset--color--accent);
+	color: var(--wp--preset--color--contrast);
+	padding: var(--wp--preset--spacing--40);
+}
+@media (forced-colors: active) {
+	.wp-block-image.is-style-soft-shadow img { box-shadow: none; border: 1px solid CanvasText; }
+	.wp-block-group.is-style-key-point { border-color: CanvasText; }
+}
+
 /* Optional composition classes shared by the editor and the front end. */
 .oc-section { padding: var(--wp--preset--spacing--60) var(--wp--preset--spacing--40); margin-block-start: 0; }
 .oc-section-inner { width: 100%; }
@@ -43,7 +58,7 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 .oc-demo-note { font-size: .75rem; line-height: 1.7; color: var(--wp--preset--color--muted); }
 .oc-text-link { font-size: .9rem; font-weight: 600; }
 .oc-soft { background: var(--wp--preset--color--surface); }
-.oc-hero { background: #edf3f1; padding-block: var(--wp--preset--spacing--60); }
+.oc-hero { background: var(--wp--preset--color--surface); padding-block: var(--wp--preset--spacing--60); }
 .oc-hero-columns { align-items: center !important; gap: var(--wp--preset--spacing--50); }
 .oc-hero h1 { font-size: clamp(2rem, 3.8vw, 3.2rem); line-height: 1.3; letter-spacing: 0; margin-block: var(--wp--preset--spacing--30); }
 .oc-hero .wp-block-image img { aspect-ratio: 5 / 4; object-fit: cover; border-radius: 2px; }
@@ -64,7 +79,7 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 .oc-steps > .wp-block-column { border-top: 1px solid var(--wp--preset--color--border); padding-top: var(--wp--preset--spacing--40); }
 .oc-number { color: var(--wp--preset--color--accent); font-size: 1.5rem; margin-block: 0 var(--wp--preset--spacing--20); }
 .oc-steps h3 { font-size: 1.15rem; }
-.oc-cta { background: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); }
+.oc-cta { background: var(--wp--preset--color--navy); color: var(--wp--preset--color--base); }
 .oc-cta .oc-eyebrow { color: #8ed5c6; }
 .oc-cta .wp-block-button__link { background: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); }
 .oc-header { padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40); border-bottom: 1px solid var(--wp--preset--color--border); }

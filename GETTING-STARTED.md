@@ -98,6 +98,14 @@ on a phone. Japanese Refined changes typography, not the language of the content
 - The homepage news section uses your posts. If not needed, remove that section
   in the Front Page template; removing the display does not delete the posts.
 
+### Optional emphasis styles
+
+Select an Image block and open **Styles > Soft Shadow** to separate an important
+photograph quietly from the page. Select a Group block and choose **Styles > Key
+Point** for a short principle, service promise or other important explanation.
+Key Point uses a pale neutral surface and a narrow teal rule. These styles are
+optional: use them sparingly, and keep ordinary content in the default style.
+
 ## 日本語での操作の要点
 
 「外観 → Ozeki Corporate Guide」から、管理画面内の案内を開けます。
@@ -173,6 +181,13 @@ on a phone. Japanese Refined changes typography, not the language of the content
 ニュースが不要ならフロントページの該当セクションを外せます。投稿自体は削除されません。
 公開前に、見本のままの連絡先、リンク未設定のボタン、画像の代替テキスト、保存状態、
 キーボード操作も確認してください。ページ作成に開発用スクリプトは不要です。
+
+### 強調用の任意スタイル
+
+大切な写真を背景から静かに分けたい場合は、画像ブロックを選び、右側の
+「スタイル → Soft Shadow」を選びます。短い方針、サービス上の約束、重要な説明には、
+グループブロックの「スタイル → Key Point」を使えます。Key Pointは薄い中立色の背景と
+細い青緑の罫線を付けます。通常の本文は標準スタイルのままにし、必要な箇所だけに使います。
 
 ## WordPress reference
 

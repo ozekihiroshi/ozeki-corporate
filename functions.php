@@ -21,6 +21,18 @@ function ozeki_corporate_register_pattern_categories(): void {
 }
 add_action('init', 'ozeki_corporate_register_pattern_categories');
 
+function ozeki_corporate_register_block_styles(): void {
+	register_block_style('core/image', [
+		'name'  => 'soft-shadow',
+		'label' => __('Soft Shadow', 'ozeki-corporate'),
+	]);
+	register_block_style('core/group', [
+		'name'  => 'key-point',
+		'label' => __('Key Point', 'ozeki-corporate'),
+	]);
+}
+add_action('init', 'ozeki_corporate_register_block_styles');
+
 if (is_admin()) {
 	require_once get_parent_theme_file_path('inc/getting-started.php');
 }

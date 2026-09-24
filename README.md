@@ -15,13 +15,18 @@ The separate [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporat
 
 ## Development ZIP
 
-Run `bash build-release.sh` to create `build/ozeki-corporate-0.2.1.zip`.
+Run `bash build-release.sh` to create `build/ozeki-corporate-0.2.2.zip`.
 Runtime theme files, bundled starter imagery and its provenance, the readme,
 license, and screenshot are included.
 Development documentation, scripts, Git metadata and the separate demo fixtures
 are excluded. A locally built ZIP is a development artifact, not automatically
 a published release. Do not replace the published v0.1.0 asset with development
 changes; finalize a new version after acceptance checks.
+
+The restrained palette uses ink and navy for large areas, neutral grays for
+structure, and the original deep teal only for small accents. Select an Image
+block's **Soft Shadow** style or a Group block's **Key Point** style when the
+content needs emphasis; the default blocks remain deliberately plain.
 
 ## Getting started
 
