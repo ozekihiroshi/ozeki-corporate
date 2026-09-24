@@ -36,7 +36,7 @@ function ozeki_corporate_render_guide(): void {
         </div>
         <div class="card">
             <h2><?php esc_html_e('3. Connect navigation and contact links', 'ozeki-corporate'); ?></h2>
-            <p><?php esc_html_e('In the Site Editor, edit the Header template part and select Navigation using List View. The initial Pages submenu contains a Page List, which can automatically include published pages. Use its Edit/convert control to manage individual links when offered. Keep only the pages you want, arrange their order, and Save. Removing a navigation link does not delete its page.', 'ozeki-corporate'); ?></p>
+            <p><?php esc_html_e('In the Site Editor, edit the Header template part and select Navigation using List View. The initial navigation contains a Page List, which automatically includes published pages and their parent-child hierarchy. Use its Edit/convert control to manage individual links when offered. Keep only the pages you want, arrange their order, and Save. Removing a navigation link does not delete its page.', 'ozeki-corporate'); ?></p>
             <p><?php esc_html_e('Publish your Contact page with real contact details or a configured form plugin. In the homepage contact section, add a Buttons block, name it Contact us and use Link to select that page. If only content fields are available, choose Edit pattern first. A mailto: link opens a visitor’s mail app; the theme does not send inquiries. Test links logged out and test form delivery separately.', 'ozeki-corporate'); ?></p>
         </div>
         <div class="card">
@@ -59,7 +59,7 @@ function ozeki_corporate_render_guide(): void {
             <ol>
                 <li><?php esc_html_e('トップページ：サイトエディターの「テンプレート → フロントページ」を編集します。通常の固定ページ本文とは別です。画像は「置換」し、処理完了後に代替テキストを設定します。アップロード上限はメディア画面で確認してください。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('固定ページ：新規追加で Ozeki Corporate の About（会社紹介）、Services（サービス）、Company（会社情報）、Contact（問い合わせ）を選びます。選択画面が出なければ「＋ → パターン」で Ozeki Corporate を検索します。タイトルを付け、見本文を差し替え、まず下書き保存します。', 'ozeki-corporate'); ?></li>
-                <li><?php esc_html_e('メニュー：ヘッダーのナビゲーションをリスト表示で選びます。最初の Pages 内のページリストは公開ページを自動表示する場合があります。編集・変換で個別リンクにし、必要なページと順番を選んで保存します。リンクを外しても固定ページ自体は削除されません。', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('メニュー：ヘッダーのナビゲーションをリスト表示で選びます。最初のページリストは公開ページとその親子関係を自動表示します。編集・変換で個別リンクにし、必要なページと順番を選んで保存します。リンクを外しても固定ページ自体は削除されません。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('問い合わせ：実際の連絡先や設定済みフォームを載せた固定ページを公開し、トップページのボタンからリンクします。テーマ自体に送信機能はありません。フォーム送信とメール到着は別に試験してください。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('公開前：会社名・写真・見本文・仮の連絡先・サンプル投稿を確認します。画像ブロックの「Soft Shadow」とグループブロックの「Key Point」は、必要な箇所だけに使える任意のスタイルです。PCとスマホ、ログアウト状態、キーボード操作、保存後の再表示を確認してバックアップを取ります。Japanese Refined は書体や余白の設定で、自動翻訳ではありません。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('投稿と固定ページ：会社紹介・サービス・会社情報・問い合わせは固定ページ、ニュースや記事は投稿で作ります。公開した投稿は記事一覧と配布版トップページの最新3件に表示されます。参照用メモは下書きか非公開にします。メニューのリンクを外すだけでは非公開になりません。不要な記事は対象だけをゴミ箱へ移してください。', 'ozeki-corporate'); ?></li>

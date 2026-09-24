@@ -4,6 +4,7 @@ declare(strict_types=1);
 if (! defined('ABSPATH')) { exit; }
 
 function ozeki_corporate_setup(): void {
+	load_theme_textdomain('ozeki-corporate', get_template_directory() . '/languages');
 	add_theme_support('editor-styles');
 	add_editor_style('style.css');
 }

@@ -62,12 +62,12 @@ Run:
 bash build-release.sh
 ```
 
-This creates `build/ozeki-corporate-0.2.2.zip`. The ZIP includes runtime theme
+This creates `build/ozeki-corporate-0.2.3.zip`. The ZIP includes runtime theme
 files, the starter image and provenance, guides, license and screenshot. It
 excludes Git metadata, development documentation, build scripts and separate
 test fixtures.
 
-The source tree currently represents the 0.2.2 release candidate. The latest
+The source tree currently represents the 0.2.3 release candidate. The latest
 published GitHub release remains v0.2.0 until the candidate is deliberately
 tagged and released. A local build or merge to `main` is not itself a public
 release and does not update WordPress.org.
@@ -77,6 +77,16 @@ The separate
 repository contains isolated development, installed-ZIP, compatibility,
 accessibility and visual-validation environments. Candidate hashes and curated
 test reports are recorded there.
+
+## Translation maintenance
+
+PHP patterns translate the template interface text, including navigation,
+search, empty results and the footer. The distribution includes
+`languages/ozeki-corporate.pot`; regenerate it with `bash update-pot.sh`
+using WP-CLI's i18n command after changing translatable strings.
+Local theme translations use locale filenames such as `ja.mo` in `languages`.
+WordPress.org language packs are supported as well. Saved user content and
+customized template parts remain user-managed.
 
 ## Project boundaries
 

@@ -38,8 +38,8 @@ just to upload an image. Wait for completion before setting its alternative text
    changing a service on one page does not change the homepage automatically.
 4. Preview before publishing. Contact needs your real contact method first.
 5. In **Appearance > Editor**, edit the **Header** template part. Use List View
-   to select its **Navigation** block. The initial **Pages** submenu contains a
-   **Page List**, which may automatically show published pages. Choose its Edit
+   to select its **Navigation** block. The initial navigation contains a
+   **Page List**, which shows published pages and their parent-child hierarchy. Choose its Edit
    or conversion control, when offered, to work with individual links.
 6. Select the desired published pages, arrange them using List View / Move up /
    Move down, and save. Remove unwanted links, not the pages themselves. The menu
@@ -137,7 +137,7 @@ optional: use them sparingly, and keep ordinary content in the default style.
 3. 見本文・画像を差し替え、まず下書き保存・プレビューします。各ページの内容は独立しており、
    サービスを変更してもトップページの内容が自動で変わるわけではありません。
 4. サイトエディターでヘッダーを開き、リスト表示からナビゲーションを選びます。
-   最初の Pages 内のページリストは公開ページを自動表示する場合があります。
+   最初のページリストは公開ページとその親子関係を自動表示します。
    編集・変換の操作で個別リンクにすると、必要なページと順番を指定できます。
 5. リンクの上下移動などで順番を整えて保存します。不要なリンクを外しても、
    固定ページ自体は削除されません。スマホとログアウト状態でも確認しましょう。

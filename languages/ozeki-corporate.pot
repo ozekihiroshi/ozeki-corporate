@@ -1,0 +1,777 @@
+# Copyright (C) 2026 Hiroshi Ozeki
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ozeki Corporate 0.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ozeki-corporate\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-24T22:46:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ozeki-corporate\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Ozeki Corporate"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/ozekihiroshi/ozeki-corporate"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A lightweight corporate block theme designed for international use with first-class Japanese typography."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Hiroshi Ozeki"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://profiles.wordpress.org/ozekihiroshi/"
+msgstr ""
+
+#: functions.php:20
+msgid "Ozeki Corporate pages"
+msgstr ""
+
+#: functions.php:28
+msgid "Soft Shadow"
+msgstr ""
+
+#: functions.php:32
+msgid "Key Point"
+msgstr ""
+
+#: inc/getting-started.php:7
+#: inc/getting-started.php:8
+msgid "Ozeki Corporate Guide"
+msgstr ""
+
+#: inc/getting-started.php:18
+msgid "You do not have permission to view this guide."
+msgstr ""
+
+#: inc/getting-started.php:22
+msgid "Make this website your own"
+msgstr ""
+
+#: inc/getting-started.php:23
+msgid "Start with the homepage, add the pages you need, then connect them. These links open standard WordPress screens; this guide does not create content or change settings."
+msgstr ""
+
+#: inc/getting-started.php:24
+#: inc/getting-started.php:58
+msgid "日本語の操作ガイド"
+msgstr ""
+
+#: inc/getting-started.php:26
+msgid "1. Personalize the homepage"
+msgstr ""
+
+#: inc/getting-started.php:27
+msgid "Open the Site Editor, then Templates > Front Page. This template controls the homepage even when Reading settings select a static page. Use List View to select text or an Image block. Choose Replace, wait for processing, then update Alternative text and Save."
+msgstr ""
+
+#: inc/getting-started.php:28
+msgid "Check the maximum upload size in Media > Add New. It is a hosting limit, not a theme limit. Reduce large files or ask your host. The hero crops to 5:4; check the subject on a phone. Keep the original photo."
+msgstr ""
+
+#: inc/getting-started.php:29
+msgid "Open Site Editor"
+msgstr ""
+
+#: inc/getting-started.php:32
+msgid "2. Add your supporting pages"
+msgstr ""
+
+#: inc/getting-started.php:33
+msgid "Add a page and choose an Ozeki Corporate starter: About, Services, Company or Contact. If no chooser appears, open the block inserter (+), select Patterns and search for Ozeki Corporate. Give the page a title, replace example copy and images, and save a draft before publishing. Use the default page template; it supplies the page title."
+msgstr ""
+
+#: inc/getting-started.php:34
+msgid "Patterns are starting content, not synchronized demo pages. Editing one page does not update other pages or the homepage. No page is created until you use the editor."
+msgstr ""
+
+#: inc/getting-started.php:35
+msgid "Add a page"
+msgstr ""
+
+#: inc/getting-started.php:35
+msgid "Review existing pages"
+msgstr ""
+
+#: inc/getting-started.php:38
+msgid "3. Connect navigation and contact links"
+msgstr ""
+
+#: inc/getting-started.php:39
+msgid "In the Site Editor, edit the Header template part and select Navigation using List View. The initial navigation contains a Page List, which automatically includes published pages and their parent-child hierarchy. Use its Edit/convert control to manage individual links when offered. Keep only the pages you want, arrange their order, and Save. Removing a navigation link does not delete its page."
+msgstr ""
+
+#: inc/getting-started.php:40
+msgid "Publish your Contact page with real contact details or a configured form plugin. In the homepage contact section, add a Buttons block, name it Contact us and use Link to select that page. If only content fields are available, choose Edit pattern first. A mailto: link opens a visitor’s mail app; the theme does not send inquiries. Test links logged out and test form delivery separately."
+msgstr ""
+
+#: inc/getting-started.php:43
+msgid "4. Choose typography and review news"
+msgstr ""
+
+#: inc/getting-started.php:44
+msgid "Use Pages for About, Services, Company and Contact. Use Posts for news and articles: published posts enter news listings, and the starter homepage shows the three latest posts. Keep reference notes as drafts or private content. Removing a menu link does not make content private; change its visibility or move the specific item to Trash."
+msgstr ""
+
+#: inc/getting-started.php:45
+msgid "Write a news post"
+msgstr ""
+
+#: inc/getting-started.php:45
+msgid "Review posts"
+msgstr ""
+
+#: inc/getting-started.php:46
+msgid "In the Site Editor, open Styles to choose the default look or Japanese Refined. This changes presentation, not language. Select an Image block and choose Soft Shadow, or select a Group block and choose Key Point, when content needs quiet emphasis. These optional block styles do not change the content itself. The homepage news section displays your posts. Review the initial sample post and page yourself; keep, replace or remove them as appropriate. If you do not need news, remove that section from the Front Page template, not your posts."
+msgstr ""
+
+#: inc/getting-started.php:49
+msgid "5. Before you publish"
+msgstr ""
+
+#: inc/getting-started.php:51
+msgid "Replace fictional names, placeholder contact details, photos and example copy. Remove the example notice only after replacing that content."
+msgstr ""
+
+#: inc/getting-started.php:52
+msgid "Check titles, site identity, navigation order and every destination, including contact links. Do not leave a button without a working link."
+msgstr ""
+
+#: inc/getting-started.php:53
+msgid "Check desktop and phone layouts, image crops, alternative text and keyboard navigation. Read the pages while logged out."
+msgstr ""
+
+#: inc/getting-started.php:54
+msgid "Save, reload and reopen the editor to verify your changes. Back up your site and test any form’s actual email delivery."
+msgstr ""
+
+#: inc/getting-started.php:60
+msgid "トップページ：サイトエディターの「テンプレート → フロントページ」を編集します。通常の固定ページ本文とは別です。画像は「置換」し、処理完了後に代替テキストを設定します。アップロード上限はメディア画面で確認してください。"
+msgstr ""
+
+#: inc/getting-started.php:61
+msgid "固定ページ：新規追加で Ozeki Corporate の About（会社紹介）、Services（サービス）、Company（会社情報）、Contact（問い合わせ）を選びます。選択画面が出なければ「＋ → パターン」で Ozeki Corporate を検索します。タイトルを付け、見本文を差し替え、まず下書き保存します。"
+msgstr ""
+
+#: inc/getting-started.php:62
+msgid "メニュー：ヘッダーのナビゲーションをリスト表示で選びます。最初のページリストは公開ページとその親子関係を自動表示します。編集・変換で個別リンクにし、必要なページと順番を選んで保存します。リンクを外しても固定ページ自体は削除されません。"
+msgstr ""
+
+#: inc/getting-started.php:63
+msgid "問い合わせ：実際の連絡先や設定済みフォームを載せた固定ページを公開し、トップページのボタンからリンクします。テーマ自体に送信機能はありません。フォーム送信とメール到着は別に試験してください。"
+msgstr ""
+
+#: inc/getting-started.php:64
+msgid "公開前：会社名・写真・見本文・仮の連絡先・サンプル投稿を確認します。画像ブロックの「Soft Shadow」とグループブロックの「Key Point」は、必要な箇所だけに使える任意のスタイルです。PCとスマホ、ログアウト状態、キーボード操作、保存後の再表示を確認してバックアップを取ります。Japanese Refined は書体や余白の設定で、自動翻訳ではありません。"
+msgstr ""
+
+#: inc/getting-started.php:65
+msgid "投稿と固定ページ：会社紹介・サービス・会社情報・問い合わせは固定ページ、ニュースや記事は投稿で作ります。公開した投稿は記事一覧と配布版トップページの最新3件に表示されます。参照用メモは下書きか非公開にします。メニューのリンクを外すだけでは非公開になりません。不要な記事は対象だけをゴミ箱へ移してください。"
+msgstr ""
+
+#: inc/getting-started.php:68
+msgid "Read the complete English / Japanese guide (Markdown)"
+msgstr ""
+
+#: patterns/call-to-action.php
+msgctxt "Pattern title"
+msgid "Contact call to action"
+msgstr ""
+
+#: patterns/call-to-action.php:7
+msgctxt "Call to action heading"
+msgid "Start a conversation"
+msgstr ""
+
+#: patterns/call-to-action.php:7
+msgctxt "Call to action text"
+msgid "Tell us what you are working on and where you would like to go. Together, we can explore a practical next step."
+msgstr ""
+
+#: patterns/company-information.php
+msgctxt "Pattern title"
+msgid "Company information"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information heading"
+msgid "Company information"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information label"
+msgid "Company"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information value"
+msgid "Example Studio (fictional business)"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information label"
+msgid "Location"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information value"
+msgid "City, Country"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information label"
+msgid "Business"
+msgstr ""
+
+#: patterns/company-information.php:8
+msgctxt "Company information value"
+msgid "Advisory, project delivery and ongoing support"
+msgstr ""
+
+#: patterns/footer-credit.php
+msgctxt "Pattern title"
+msgid "footer credit"
+msgstr ""
+
+#: patterns/footer-credit.php:8
+msgid "Built with WordPress."
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern title"
+msgid "Corporate hero"
+msgstr ""
+
+#: patterns/hero.php:15
+msgctxt "Hero eyebrow"
+msgid "Ideas into practice"
+msgstr ""
+
+#: patterns/hero.php:18
+msgctxt "Hero heading"
+msgid "Practical thinking. Lasting progress."
+msgstr ""
+
+#: patterns/hero.php:21
+msgctxt "Hero description"
+msgid "We help people turn everyday challenges into workable improvements."
+msgstr ""
+
+#: patterns/hero.php:24
+msgctxt "Hero supporting text"
+msgid "From the first conversation to the next practical step, we bring clear advice, thoughtful delivery and ongoing support."
+msgstr ""
+
+#: patterns/hero.php:30
+msgctxt "Starter image alternative text"
+msgid "Illustration of a team discussing a project around a table"
+msgstr ""
+
+#: patterns/hero.php:35
+msgctxt "Starter example disclosure"
+msgid "Illustrative business content and an AI-generated image. Replace them with your own story."
+msgstr ""
+
+#: patterns/introduction.php
+msgctxt "Pattern title"
+msgid "Company introduction"
+msgstr ""
+
+#: patterns/introduction.php:8
+msgctxt "Introduction heading"
+msgid "Built around your real priorities"
+msgstr ""
+
+#: patterns/introduction.php:8
+msgctxt "Introduction text"
+msgid "Good work starts with understanding your situation. We combine careful listening with practical experience to find solutions that fit the way you work."
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest news"
+msgstr ""
+
+#: patterns/latest-news.php:7
+msgctxt "News heading"
+msgid "Latest news"
+msgstr ""
+
+#: patterns/navigation.php
+msgctxt "Pattern title"
+msgid "navigation"
+msgstr ""
+
+#: patterns/navigation.php:9
+msgid "Home"
+msgstr ""
+
+#: patterns/no-results.php
+msgctxt "Pattern title"
+msgid "no results"
+msgstr ""
+
+#: patterns/no-results.php:8
+msgid "No content was found."
+msgstr ""
+
+#: patterns/not-found.php
+msgctxt "Pattern title"
+msgid "not found"
+msgstr ""
+
+#: patterns/not-found.php:8
+msgid "Page not found"
+msgstr ""
+
+#: patterns/not-found.php:9
+msgid "The page may have moved or no longer exists."
+msgstr ""
+
+#: patterns/page-about.php
+msgctxt "Pattern title"
+msgid "Ozeki Corporate — About"
+msgstr ""
+
+#: patterns/page-about.php
+msgctxt "Pattern description"
+msgid "A company introduction with a photograph, approach and values."
+msgstr ""
+
+#: patterns/page-about.php:12
+msgctxt "About page introduction"
+msgid "Good work begins with a conversation."
+msgstr ""
+
+#: patterns/page-about.php:13
+msgctxt "About page image"
+msgid "Illustration of colleagues discussing a project around a table"
+msgstr ""
+
+#: patterns/page-about.php:14
+msgctxt "About page heading"
+msgid "A thoughtful approach to everyday challenges"
+msgstr ""
+
+#: patterns/page-about.php:15
+msgctxt "About page text"
+msgid "We work alongside our clients to understand what matters, make clear decisions and turn plans into useful improvements. Our approach brings together careful listening, practical experience and steady communication."
+msgstr ""
+
+#: patterns/page-about.php:17
+msgctxt "Page starter disclosure"
+msgid "Fictional example content and AI-generated imagery. Replace with your own story and photograph before publishing."
+msgstr ""
+
+#: patterns/page-company.php
+msgctxt "Pattern title"
+msgid "Ozeki Corporate — Company"
+msgstr ""
+
+#: patterns/page-company.php
+msgctxt "Pattern description"
+msgid "An editable company profile and business information table."
+msgstr ""
+
+#: patterns/page-company.php:12
+msgctxt "Company page introduction"
+msgid "Clear information about who we are and what we do."
+msgstr ""
+
+#: patterns/page-company.php:14
+msgctxt "Company page heading"
+msgid "Our approach"
+msgstr ""
+
+#: patterns/page-company.php:15
+msgctxt "Company page text"
+msgid "We value reliable communication, practical solutions and lasting relationships. We take time to understand each project and explain the next steps clearly."
+msgstr ""
+
+#: patterns/page-company.php:16
+msgctxt "Company page disclosure"
+msgid "This profile is fictional. Replace the name, location and activities with accurate business information before publishing."
+msgstr ""
+
+#: patterns/page-contact.php
+msgctxt "Pattern title"
+msgid "Ozeki Corporate — Contact"
+msgstr ""
+
+#: patterns/page-contact.php
+msgctxt "Pattern description"
+msgid "An inquiry introduction and preparation checklist, without a built-in form."
+msgstr ""
+
+#: patterns/page-contact.php:12
+msgctxt "Contact page introduction"
+msgid "Let us start with what you have in mind."
+msgstr ""
+
+#: patterns/page-contact.php:13
+msgctxt "Contact page text"
+msgid "Tell us about your situation, the outcome you are looking for and any timing you have in mind. You do not need to have every detail worked out before getting in touch."
+msgstr ""
+
+#: patterns/page-contact.php:14
+msgctxt "Contact page heading"
+msgid "What to include"
+msgstr ""
+
+#: patterns/page-contact.php:16
+msgctxt "Contact page item"
+msgid "A short introduction to your organization or project"
+msgstr ""
+
+#: patterns/page-contact.php:17
+msgctxt "Contact page item"
+msgid "The challenge you want to address"
+msgstr ""
+
+#: patterns/page-contact.php:18
+msgctxt "Contact page item"
+msgid "Your preferred timing and a way to reach you"
+msgstr ""
+
+#: patterns/page-contact.php:20
+msgctxt "Contact page details heading"
+msgid "Get in touch"
+msgstr ""
+
+#: patterns/page-contact.php:21
+msgctxt "Contact page placeholder"
+msgid "[Add your public business contact details or a configured form here.]"
+msgstr ""
+
+#: patterns/page-contact.php:22
+msgctxt "Contact page disclosure"
+msgid "Setup reminder: this example does not send messages. Replace the placeholder, configure your contact method, and test it before publishing."
+msgstr ""
+
+#: patterns/page-services.php
+msgctxt "Pattern title"
+msgid "Ozeki Corporate — Services"
+msgstr ""
+
+#: patterns/page-services.php
+msgctxt "Pattern description"
+msgid "Service cards and a practical three-step working process."
+msgstr ""
+
+#: patterns/page-services.php:12
+msgctxt "Services page introduction"
+msgid "The right support, at the right stage."
+msgstr ""
+
+#: patterns/page-services.php:14
+msgctxt "Services page process heading"
+msgid "How we work together"
+msgstr ""
+
+#: patterns/page-services.php:16
+msgctxt "Services page step"
+msgid "1. Understand"
+msgstr ""
+
+#: patterns/page-services.php:16
+msgctxt "Services page step description"
+msgid "We listen to your priorities and agree on the outcome you want to achieve."
+msgstr ""
+
+#: patterns/page-services.php:17
+msgctxt "Services page step"
+msgid "2. Plan and deliver"
+msgstr ""
+
+#: patterns/page-services.php:17
+msgctxt "Services page step description"
+msgid "We define a manageable scope and keep you informed as the work progresses."
+msgstr ""
+
+#: patterns/page-services.php:18
+msgctxt "Services page step"
+msgid "3. Review and improve"
+msgstr ""
+
+#: patterns/page-services.php:18
+msgctxt "Services page step description"
+msgid "We review the results together and identify useful next steps."
+msgstr ""
+
+#: patterns/page-services.php:20
+msgctxt "Services page disclosure"
+msgid "Example services and process. Replace with the work your business actually offers."
+msgstr ""
+
+#: patterns/post-excerpt.php
+msgctxt "Pattern title"
+msgid "post excerpt"
+msgstr ""
+
+#: patterns/post-excerpt.php:8
+msgid "Read more"
+msgstr ""
+
+#: patterns/return-home.php
+msgctxt "Pattern title"
+msgid "Return home"
+msgstr ""
+
+#: patterns/return-home.php:9
+msgid "Return home"
+msgstr ""
+
+#: patterns/search-form.php
+msgctxt "Pattern title"
+msgid "search form"
+msgstr ""
+
+#: patterns/search-form.php:8
+msgid "Search"
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Service overview"
+msgstr ""
+
+#: patterns/services.php:8
+msgctxt "Service title"
+msgid "Advisory"
+msgstr ""
+
+#: patterns/services.php:8
+msgctxt "Service heading"
+msgid "Find a clear direction"
+msgstr ""
+
+#: patterns/services.php:8
+msgctxt "Service description"
+msgid "We listen to your priorities, review the situation and help you choose a practical next step."
+msgstr ""
+
+#: patterns/services.php:9
+msgctxt "Service title"
+msgid "Implementation"
+msgstr ""
+
+#: patterns/services.php:9
+msgctxt "Service heading"
+msgid "Turn plans into practice"
+msgstr ""
+
+#: patterns/services.php:9
+msgctxt "Service description"
+msgid "We bring people and details together, with a clear scope and steady communication from start to finish."
+msgstr ""
+
+#: patterns/services.php:10
+msgctxt "Service title"
+msgid "Ongoing support"
+msgstr ""
+
+#: patterns/services.php:10
+msgctxt "Service heading"
+msgid "Keep making progress"
+msgstr ""
+
+#: patterns/services.php:10
+msgctxt "Service description"
+msgid "We help you review what is working, resolve everyday challenges and build on the improvements you have made."
+msgstr ""
+
+#: patterns/services.php:16
+msgctxt "Services heading"
+msgid "Support from first ideas to everyday practice"
+msgstr ""
+
+#: patterns/strengths.php
+msgctxt "Pattern title"
+msgid "Organizational strengths"
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strengths heading"
+msgid "Why organizations work with us"
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength title"
+msgid "01 — Clarity"
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength description"
+msgid "Complex subjects become decisions people can understand and act on."
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength title"
+msgid "02 — Reliability"
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength description"
+msgid "Solutions are designed for stable operation and responsible maintenance."
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength title"
+msgid "03 — Partnership"
+msgstr ""
+
+#: patterns/strengths.php:8
+msgctxt "Strength description"
+msgid "Work stays grounded in your context, capabilities, and long-term goals."
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Navy"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Slate"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Mist"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Deep Teal"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Deep Teal Dark"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Micro"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: styles/japanese-refined.json
+msgctxt "Style variation name"
+msgid "Japanese Refined"
+msgstr ""
+
+#: styles/japanese-refined.json
+msgctxt "Font family name"
+msgid "ゴシック体 / Sans"
+msgstr ""
+
+#: styles/japanese-refined.json
+msgctxt "Font family name"
+msgid "明朝体 / Serif"
+msgstr ""

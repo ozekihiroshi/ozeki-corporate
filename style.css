@@ -4,13 +4,14 @@ Theme URI: https://github.com/ozekihiroshi/ozeki-corporate
 Author: Hiroshi Ozeki
 Author URI: https://profiles.wordpress.org/ozekihiroshi/
 Description: A lightweight corporate block theme designed for international use with first-class Japanese typography.
-Version: 0.2.2
+Version: 0.2.3
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ozeki-corporate
+Domain Path: /languages
 Tags: block-patterns, full-site-editing, custom-colors, custom-logo, editor-style, featured-images, translation-ready, wide-blocks
 */
 

@@ -3,7 +3,7 @@ Contributors: ozekihiroshi
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Version: 0.2.2
+Version: 0.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -144,6 +144,12 @@ runtime assets are bundled. Fonts use the visitor's operating-system font stack.
 Demonstration content is not automatically installed or imported by the theme.
 
 == Changelog ==
+
+= 0.2.3 =
+* Display comments, replies and comment pagination on pages when enabled.
+* Use the native Page List hierarchy directly in the initial navigation.
+* Make template interface text translatable and include a POT catalog.
+* Validate nested navigation with mouse, keyboard and mobile interactions.
 
 = 0.2.2 =
 * Add a restrained navy role while retaining deep teal for links and small accents.

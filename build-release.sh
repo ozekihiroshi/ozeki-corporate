@@ -6,7 +6,7 @@ version=$(sed -n 's/^Version: //p' "$root/style.css" | tr -d '\r')
 [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
 stage=$(mktemp -d /tmp/ozeki-corporate-build.XXXXXXXX)
 mkdir "$stage/ozeki-corporate"
-for entry in style.css functions.php theme.json readme.txt GETTING-STARTED.md LICENSE inc parts patterns templates styles assets; do
+for entry in style.css functions.php theme.json readme.txt GETTING-STARTED.md LICENSE inc parts patterns templates styles assets languages; do
   cp -R "$root/$entry" "$stage/ozeki-corporate/"
 done
 if [[ -f "$root/screenshot.png" ]]; then cp "$root/screenshot.png" "$stage/ozeki-corporate/"; fi
