@@ -30,6 +30,13 @@ function ozeki_corporate_render_guide(): void {
         </div>
         <div class="card">
             <h2><?php esc_html_e('2. Add your supporting pages', 'ozeki-corporate'); ?></h2>
+            <ul class="ul-disc">
+                <li><?php esc_html_e('About: introduction, strengths, representative message, company information and contact guidance.', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('Services: service overview, working process, optional case study and contact guidance. Remove the case study if you have no project you can share.', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('Company: a separate company profile when needed. If About already covers your company information, you do not need both pages.', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('Contact: inquiry guidance to complete with your own contact method. No working form is included.', 'ozeki-corporate'); ?></li>
+            </ul>
+            <p><?php esc_html_e('Insert a page starter once into an empty page. Use Ozeki Corporate sections for individual parts on an existing page. Remove unnecessary sections rather than inserting another complete starter.', 'ozeki-corporate'); ?></p>
             <p><?php esc_html_e('Add a page and choose an Ozeki Corporate starter: About, Services, Company or Contact. If no chooser appears, open the block inserter (+), select Patterns and search for Ozeki Corporate. Give the page a title, replace example copy and images, and save a draft before publishing. Use the default page template; it supplies the page title.', 'ozeki-corporate'); ?></p>
             <p><?php esc_html_e('Patterns are starting content, not synchronized demo pages. Editing one page does not update other pages or the homepage. No page is created until you use the editor.', 'ozeki-corporate'); ?></p>
             <p><a class="button" href="<?php echo esc_url(admin_url('post-new.php?post_type=page')); ?>"><?php esc_html_e('Add a page', 'ozeki-corporate'); ?></a> <a href="<?php echo esc_url(admin_url('edit.php?post_type=page')); ?>"><?php esc_html_e('Review existing pages', 'ozeki-corporate'); ?></a></p>
@@ -47,7 +54,10 @@ function ozeki_corporate_render_guide(): void {
         </div>
         <div class="card">
             <h2><?php esc_html_e('5. Before you publish', 'ozeki-corporate'); ?></h2>
+            <p><?php esc_html_e('This is a manual checklist, not an automatic scan or a certification. Keep unfinished pages as drafts.', 'ozeki-corporate'); ?></p>
             <ul class="ul-disc">
+                <li><?php esc_html_e('Confirm permission for photographs and client information. Use only supportable project results; remove optional case studies you cannot complete.', 'ozeki-corporate'); ?></li>
+                <li><?php esc_html_e('After replacing a photo, check both its alternative text and caption. Old captions can remain and new alternative text can be empty. Keep AI-example disclosure while using a generated sample.', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('Replace fictional names, placeholder contact details, photos and example copy. Remove the example notice only after replacing that content.', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('Check titles, site identity, navigation order and every destination, including contact links. Do not leave a button without a working link.', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('Check desktop and phone layouts, image crops, alternative text and keyboard navigation. Read the pages while logged out.', 'ozeki-corporate'); ?></li>
@@ -56,6 +66,9 @@ function ozeki_corporate_render_guide(): void {
         </div>
         <div class="card" id="ozeki-corporate-guide-ja" lang="ja">
             <h2><?php esc_html_e('日本語の操作ガイド', 'ozeki-corporate'); ?></h2>
+            <p><?php esc_html_e('About は紹介・強み・代表挨拶・会社概要・問い合わせ、Services は一覧・相談の流れ・任意の事例・問い合わせを組み合わせています。会社概要を独立させたい場合だけ Company を追加し、重複する情報を整理します。Contact に送信フォームは含まれません。', 'ozeki-corporate'); ?></p>
+            <p><?php esc_html_e('空の固定ページにページ用パターンを一度挿入します。既存ページに部品だけ足す場合は Ozeki Corporate sections を選びます。公開できる事例がなければ事例欄を外して構いません。', 'ozeki-corporate'); ?></p>
+            <p><?php esc_html_e('写真の差し替え後は、古い説明文が残っていないか、代替テキストが空になっていないかも確認します。AI生成の見本を使う間は、その旨の説明を残します。写真・顧客情報の掲載許可と実績の根拠を確認してください。この案内は手動チェック用で、自動検査や適合認証ではありません。', 'ozeki-corporate'); ?></p>
             <ol>
                 <li><?php esc_html_e('トップページ：サイトエディターの「テンプレート → フロントページ」を編集します。通常の固定ページ本文とは別です。画像は「置換」し、処理完了後に代替テキストを設定します。アップロード上限はメディア画面で確認してください。', 'ozeki-corporate'); ?></li>
                 <li><?php esc_html_e('固定ページ：新規追加で Ozeki Corporate の About（会社紹介）、Services（サービス）、Company（会社情報）、Contact（問い合わせ）を選びます。選択画面が出なければ「＋ → パターン」で Ozeki Corporate を検索します。タイトルを付け、見本文を差し替え、まず下書き保存します。', 'ozeki-corporate'); ?></li>

@@ -16,6 +16,9 @@ function ozeki_corporate_enqueue_styles(): void {
 add_action('wp_enqueue_scripts', 'ozeki_corporate_enqueue_styles');
 
 function ozeki_corporate_register_pattern_categories(): void {
+	register_block_pattern_category('ozeki-corporate-sections', [
+		'label' => __('Ozeki Corporate sections', 'ozeki-corporate'),
+	]);
 	register_block_pattern_category('ozeki-corporate-pages', [
 		'label' => __('Ozeki Corporate pages', 'ozeki-corporate'),
 	]);

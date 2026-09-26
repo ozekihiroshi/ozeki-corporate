@@ -2,7 +2,7 @@
 /**
  * Title: Service overview
  * Slug: ozeki-corporate/services
- * Categories: services, columns
+ * Categories: ozeki-corporate-sections, services, columns
  */
 $services = [
     [_x('Advisory', 'Service title', 'ozeki-corporate'), _x('Find a clear direction', 'Service heading', 'ozeki-corporate'), _x('We listen to your priorities, review the situation and help you choose a practical next step.', 'Service description', 'ozeki-corporate')],
@@ -14,6 +14,7 @@ $services = [
 <div class="wp-block-group alignfull oc-section oc-soft">
 <!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php echo esc_html_x('Support from first ideas to everyday practice', 'Services heading', 'ozeki-corporate'); ?></h2><!-- /wp:heading -->
+<!-- wp:paragraph {"align":"wide"} --><p class="alignwide"><?php echo esc_html_x('Choose the support that fits your situation. Each service can stand alone or form part of a longer partnership.', 'Services introduction', 'ozeki-corporate'); ?></p><!-- /wp:paragraph -->
 <!-- wp:columns {"align":"wide","className":"oc-card-grid"} -->
 <div class="wp-block-columns alignwide oc-card-grid">
 <?php foreach ($services as [$label, $title, $description]) : ?>

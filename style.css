@@ -72,14 +72,12 @@ body { line-break: strict; overflow-wrap: anywhere; text-rendering: optimizeLegi
 .oc-card .wp-block-image { margin: 0; }
 .oc-card .wp-block-image img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; }
 .oc-card-body { padding: var(--wp--preset--spacing--40); margin-block-start: 0 !important; }
-.oc-card-body h3 { font-size: 1.2rem; line-height: 1.5; margin-block: var(--wp--preset--spacing--20); }
-.oc-card-body p:not(.oc-eyebrow):not(.oc-text-link) { font-size: .95rem; line-height: 1.9; }
+.oc-card-body h3 { margin-block: var(--wp--preset--spacing--20); }
 .oc-card-body h3 a { color: inherit; text-decoration: none; }
 .oc-card-body h3 a:hover { text-decoration: underline; }
 .oc-steps { gap: var(--wp--preset--spacing--50); margin-block: var(--wp--preset--spacing--50); }
 .oc-steps > .wp-block-column { border-top: 1px solid var(--wp--preset--color--border); padding-top: var(--wp--preset--spacing--40); }
 .oc-number { color: var(--wp--preset--color--accent); font-size: 1.5rem; margin-block: 0 var(--wp--preset--spacing--20); }
-.oc-steps h3 { font-size: 1.15rem; }
 .oc-cta { background: var(--wp--preset--color--navy); color: var(--wp--preset--color--base); }
 .oc-cta .oc-eyebrow { color: #8ed5c6; }
 .oc-cta .wp-block-button__link { background: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); }
