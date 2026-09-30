@@ -11,6 +11,8 @@ content remains editable with standard WordPress tools.
 ## What is included
 
 - English-first corporate homepage, About, Services, Company and Contact starters.
+- Reusable representative-message, case-study, services, process, company-table
+  and contact sections with shared spacing and typography.
 - A locally bundled, replaceable example image with documented provenance.
 - An optional **Japanese Refined** Global Style using Mincho body copy, Gothic
   headings and Japanese-tested line height and wrapping.
@@ -62,15 +64,15 @@ Run:
 bash build-release.sh
 ```
 
-This creates `build/ozeki-corporate-0.2.3.zip`. The ZIP includes runtime theme
+This creates `build/ozeki-corporate-0.3.0.zip`. The ZIP includes runtime theme
 files, the starter image and provenance, guides, license and screenshot. It
 excludes Git metadata, development documentation, build scripts and separate
 test fixtures.
 
-The source tree currently represents the 0.2.3 release candidate. The latest
-published GitHub release remains v0.2.0 until the candidate is deliberately
-tagged and released. A local build or merge to `main` is not itself a public
-release and does not update WordPress.org.
+Versioned installation ZIPs are published in GitHub Releases after validation.
+A local build or merge to `main` is not itself a public release and does not
+update WordPress.org. Directory review and approval are separate from GitHub
+publication; consult the review ticket for the current directory status.
 
 The separate
 [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporate-theme-rescue)

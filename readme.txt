@@ -145,6 +145,13 @@ Demonstration content is not automatically installed or imported by the theme.
 
 == Changelog ==
 
+= 0.3.0 =
+* Add editable representative-message, case-study and three-step process patterns.
+* Compose About and Services starters from consistent business sections.
+* Unify section spacing, service cards, company tables and contact guidance.
+* Expand English/Japanese setup guidance and pre-publication checks.
+* Preserve saved pages, navigation, templates and Global Styles on update.
+
 = 0.2.3 =
 * Display comments, replies and comment pagination on pages when enabled.
 * Use the native Page List hierarchy directly in the initial navigation.
@@ -176,6 +183,9 @@ Demonstration content is not automatically installed or imported by the theme.
 * Responsive classic content, distinct page landmarks, and classic post pagination.
 
 == Upgrade Notice ==
+
+= 0.3.0 =
+Adds business section patterns and page starter guidance. Existing saved pages are not replaced; insert the new patterns where needed and replace sample content before publishing.
 
 = 0.2.2 =
 Adds a restrained Navy and Deep Teal color system, controlled spacing and typography, and two optional native block styles without replacing saved content.
