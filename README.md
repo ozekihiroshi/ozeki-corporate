@@ -1,12 +1,24 @@
 # Ozeki Corporate
 
-A calm, practical WordPress block theme for business websites, with an
-English-first starter experience and first-class Japanese typography.
+Build a business site with WordPress blocks. Ozeki Corporate gives companies,
+independent professionals, and small teams a calm starting point for presenting
+their services, people, and work.
 
-Ozeki Corporate is intended for companies, independent professionals and small
-teams that need a credible site without a proprietary page builder. It uses
-native WordPress templates, patterns, blocks and Global Styles, so the resulting
-content remains editable with standard WordPress tools.
+Keep the site editable. Native templates, patterns, blocks, and Global Styles
+let you maintain content with standard WordPress tools. The English-first
+starter includes an optional **Japanese Refined** style with Japanese typography,
+plus setup guidance in English and Japanese.
+
+## Get the theme
+
+Ozeki Corporate is published on [WordPress.org](https://wordpress.org/themes/ozeki-corporate/).
+In WordPress, open **Appearance > Themes > Add New**, search for **Ozeki Corporate**,
+then install and activate it. The directory release documented here is 0.3.0.
+
+Start with your services page. Open **Appearance > Ozeki Corporate Guide**,
+choose a starter pattern, replace the example content, and review the page
+on desktop and mobile. [The setup guide](GETTING-STARTED.md) covers navigation,
+contact destinations, and the optional styles.
 
 ## What is included
 
@@ -33,7 +45,7 @@ collect analytics, load remote fonts, use a CDN or require a companion plugin.
 
 ## Install and start
 
-1. Upload the versioned ZIP from **Appearance > Themes > Add New > Upload Theme**.
+1. Install from [WordPress.org](https://wordpress.org/themes/ozeki-corporate/), or upload its ZIP from **Appearance > Themes > Add New > Upload Theme**.
 2. Activate Ozeki Corporate.
 3. Open **Appearance > Ozeki Corporate Guide**.
 4. Replace the example company text and photograph, create the required pages,
@@ -70,9 +82,10 @@ excludes Git metadata, development documentation, build scripts and separate
 test fixtures.
 
 Versioned installation ZIPs are published in GitHub Releases after validation.
-A local build or merge to `main` is not itself a public release and does not
-update WordPress.org. Directory review and approval are separate from GitHub
-publication; consult the review ticket for the current directory status.
+GitHub and WordPress.org have separate release workflows. A local build or
+merge to `main` does not update the published directory package; use the
+[WordPress.org listing](https://wordpress.org/themes/ozeki-corporate/) to check
+the version offered to site administrators.
 
 The separate
 [`corporate-theme-rescue`](https://github.com/ozekihiroshi/corporate-theme-rescue)
